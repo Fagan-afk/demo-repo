@@ -3,8 +3,14 @@
 public class Main {
     public static void main(String[] args) {
 
-         int num1 = 25;
-         System.out.println("num1 = " + num1);
+        greetings();
 
-        }
+        int num1 = 25;
+        System.out.println("num1 = " + num1);
+
     }
+
+    public static void greetings(){
+        System.out.println("Hello World");
+    }
+}
