@@ -8,6 +8,10 @@ public class Main {
         int num1 = 25;
         System.out.println("num1 = " + num1);
 
+        if(num1==25){
+            System.out.println("the number is in fact 25");
+        }
+
     }
 
     public static void greetings(){
